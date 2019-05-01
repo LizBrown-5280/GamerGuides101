@@ -41,7 +41,7 @@ export default {
     margin-left: -251px;
     text-align: center;
     display: inline-block;
-    width: 300px;
+    width: 305px;
     height: 50px;
   }
   header .navbar {
