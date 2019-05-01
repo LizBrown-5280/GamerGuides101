@@ -13,7 +13,7 @@ export default {
   setApiKey ({dispatch, commit, state}, apiKeyValue) {
     // !!!!  missing -> clear all data and errors before starting with new api key
     commit('setApiKeyErrorMsg', null)
-  
+
     // !!!! For Dev use only, commented out other wise.
     apiKeyValue = pwdHelper(apiKeyValue)
 
